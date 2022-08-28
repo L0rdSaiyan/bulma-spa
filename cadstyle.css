@@ -137,7 +137,7 @@ body{
 #cadastrar{
 
     position: absolute;
-    margin-top: 250px;
+    margin-top: 220px;
     height: 30px;
     width: 320px;
     background-color: #4fc7ff;
@@ -164,4 +164,31 @@ body{
     width: 500px;
     border-top: 1px solid red;
     text-align: center;
+    
+}
+
+#container footer p{
+
+    margin-top: 20px;
+
+}
+
+#msg{
+
+    position: absolute;
+    display: flex;
+    margin-top: 385px;
+    color: rgb(214, 12, 12);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:500px) {
+
+    #msg{
+
+        font-size: 10px;
+
+    }
+
 }

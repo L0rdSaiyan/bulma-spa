@@ -7,6 +7,7 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="cadstyle.css">
     <link rel="shortcut icon" href="logo3.PNG" type="image/x-icon">
+    <script src="app.js"></script>
 </head>
 <body>
 
@@ -15,16 +16,18 @@
         <img src="logo3tb.PNG" id="icon" onclick="location.href='index.html'">
 
         <div class="inputs">
-
             <input type="text" placeholder="Nome" id="usuario">
             <input type="password" placeholder="Senha" id="senha">
             <input type="password" placeholder="Confirme a senha " id="confirm">
             <input type="date" id="data">
-            <input type="submit" value="Cadastrar-se" id="cadastrar">
+            <input type="submit" value="Cadastrar-se" id="cadastrar" onclick="cadastrar();">
         </div>
+        <p id="msg"></p>
+
 
         <footer>
-            Ao clicar em Cadastrar-se, você aceita os Termos de Uso (incluindo a cláusula de arbitragem) e a Política de Privacidade.        </footer>
+           <p>Ao clicar em Cadastrar-se, você aceita os Termos de Uso (incluindo a cláusula de arbitragem) e a Política de Privacidade. </p>     
+          </footer>
 
     </div>
 
