@@ -13,9 +13,15 @@ function cadastrar(){
     }
 
 
-    if(nome=="" || senha=="" || confirm==""){
+    else if(nome=="" || senha=="" || confirm==""){
 
         msg.innerText = "Não são permitidos campos em branco!"
+
+    }
+
+    else{
+
+        location.href="index.html"
 
     }
 
