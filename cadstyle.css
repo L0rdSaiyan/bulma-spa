@@ -183,19 +183,18 @@ body{
     margin-left: 30px;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 
     #msg{
 
-        font-size: 10px;
+        font-size: 12px;
 
     }
 
     #container footer p{
 
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;        
+        font-size: 12px;
+            
     }
 
 }
