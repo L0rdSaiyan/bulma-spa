@@ -160,7 +160,7 @@ footer{
 
     background-color: white;
     box-shadow: 3px 10px 10px 6px;
-    min-width: 100vh;
+    width: 100vh;
     height: 100px;
     display: flex;
     justify-content: center;
