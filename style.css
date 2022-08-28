@@ -13,6 +13,7 @@ header{
 
     background-color: #ffffff;
     box-shadow: 2px 10px 10px 3px;
+    min-width: 100vh;
 
 }
 
@@ -100,7 +101,7 @@ cursor: pointer;
 
     display: flex;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 350px;
     padding: 32px;
 
   }
@@ -148,7 +149,7 @@ cursor: pointer;
   #slogan{
 
     position: absolute;
-    margin-top: 110px;
+    margin-top: 40px;
     padding: 0 80px;
     font-size: 40px;
     color: #9b9191;
@@ -159,7 +160,7 @@ footer{
 
     background-color: white;
     box-shadow: 3px 10px 10px 6px;
-    width: 100%;
+    min-width: 100vh;
     height: 100px;
     display: flex;
     justify-content: center;
