@@ -183,7 +183,17 @@ body{
     margin-left: 30px;
 }
 
-@media screen and (max-width:700px) {
+#msg2{
+
+    position: absolute;
+    display: flex;
+    margin-top: 75px;
+    font-weight: bold;
+    color: rgb(214, 12, 12);
+
+}
+
+@media screen and (max-width:720px) {
 
     #msg{
 
@@ -195,6 +205,12 @@ body{
 
         font-size: 12px;
             
+    }
+
+    #msg2{
+
+        font-size: 12px;
+
     }
 
 }
