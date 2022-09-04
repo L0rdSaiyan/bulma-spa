@@ -78,8 +78,8 @@ body{
     background-color: rgb(82, 69, 69);
     border: none;
     border-radius: 5px;
-    animation-name: anima;
-    animation-duration: 3s;
+    animation-name: anima4;
+    animation-duration: 2s;
     text-align: center;
 
 }
@@ -180,4 +180,10 @@ footer a:hover{
     0%{visibility: hidden;}
     100%{visibility: hidden;}
 
+}
+
+@keyframes anima4{
+
+    from{margin-left: 900px;}
+    to{margin-left: 0px;}
 }

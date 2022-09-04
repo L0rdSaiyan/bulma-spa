@@ -129,6 +129,26 @@ main.cards section.card:hover {
 
 }
 
+#card1{
+
+    animation-name: aparecer;
+    animation-duration: 2s;
+
+}
+
+#card2{
+
+    animation-name: aparecer;
+    animation-duration: 2.5s;
+
+}
+
+#card3{
+
+    animation-name: aparecer;
+    animation-duration: 3s;
+}
+
 #slogan {
 
     position: absolute;
@@ -209,5 +229,13 @@ footer p {
     to {
         margin-right: 520px;
     }
+
+}
+
+@keyframes aparecer{
+
+    0%{visibility: hidden;}
+    100%{visibility: hidden;}
+
 
 }
