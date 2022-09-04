@@ -151,6 +151,12 @@ footer a:hover{
 
     }
 
+    #usuario, #senha, #entrar{
+
+        width:320px;
+
+    }
+
 
 }
 

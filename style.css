@@ -2,7 +2,7 @@
 
 body{
 
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-image: url("imgs/fundo.jpg");
     background-size:100rem;
@@ -102,6 +102,7 @@ cursor: pointer;
     justify-content: center;
     margin-top: 350px;
     padding: 32px;
+    transition: 200ms;
 
   }
 
@@ -128,6 +129,18 @@ cursor: pointer;
 
   }
 
+  #slogan{
+
+    position: absolute;
+    margin-top: 20px;
+    padding: 0 80px ;
+    font-size: 40px;
+    color: #9b9191;
+    animation-name: anima;
+    animation-duration: 3s;        
+
+  }
+
   @media screen and (max-width:720px) {
     
     main.cards{
@@ -143,16 +156,13 @@ cursor: pointer;
     
       }
 
-  }
+      #slogan{
 
-  #slogan{
+        margin-top: 15px;
+        font-size: 35px;
 
-    position: absolute;
-    margin-top: 20px;
-    padding: 0 80px;
-    font-size: 40px;
-    color: #9b9191;
-        
+      }
+
   }
 
 footer{
@@ -163,7 +173,8 @@ footer{
     height: 100px;
     display: flex;
     justify-content: center;
-    
+    position: absolute;
+     
 }
 
 footer p{
@@ -186,5 +197,12 @@ position: absolute;
 
     transform: scale(1.1);
     cursor: pointer;
+
+}
+
+@keyframes anima{
+
+    from{margin-left: -750px;}
+    to{margin-right: 520px;}
 
 }

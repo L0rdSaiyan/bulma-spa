@@ -36,6 +36,10 @@ if(usuario == "" || senha == ""){
 
     alertify.error('preencha os campos corretamente!')
 
+}else{
+
+    window.location.href="index.html"
+
 }
 
 
