@@ -4,7 +4,7 @@ body{
 
     height: 100vh;
     margin: 0;
-    background-image: url("fundo.jpg");
+    background-image: url("imgs/fundo.jpg");
     background-size:100rem;
     box-sizing: border-box;
 }
