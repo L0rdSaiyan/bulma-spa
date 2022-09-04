@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrar</title>
     <link rel="stylesheet" href="entrarstyle.css">
+    <link rel="shortcut icon" href="imgs/logo3.PNG" type="image/x-icon">
+    <script src="app.js"></script>
+
 </head>
+
 <body>
-    
+
     <div id="container">
 
-        <img src="imgs/logo3tb.PNG" alt="logo" onclick="location.href='index.html'"  id="logo">
+        <img src="imgs/logo3tb.PNG" alt="logo" onclick="location.href='index.html'" id="logo">
 
         <div class="inputs">
 
             <input type="text" id="usuario" placeholder="Usuário">
             <input type="password" id="senha" placeholder="Senha">
-            <button id="entrar">Entrar</button>
+            <button id="entrar"onclick="confirm()">Entrar</button>
 
 
 
         </div>
 
-
-
+        <footer>
+            <p>
+                Não tem uma conta? <a href="cadastro.html">Cadastre-se</a>
+            </p>
+        </footer>
 
     </div>
 
 </body>
+
+<!-- JavaScript -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+
+<!-- Semantic UI theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css" />
+
+
 </html>

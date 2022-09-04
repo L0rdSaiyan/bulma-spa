@@ -3,6 +3,7 @@
 
 body{
 
+
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -70,7 +71,7 @@ body{
 
 }
 
-#usuario::placeholder{
+::placeholder{
 
     color: rgb(189, 179, 179);
     font-size: 16px;
@@ -90,15 +91,6 @@ body{
     text-align: center;
 
 }
-
-#senha::placeholder{
-
-    color: rgb(189, 179, 179);
-    font-size: 16px;
-
-
-}
-
 
 #confirm{
 
@@ -161,7 +153,8 @@ body{
     position: absolute;
     margin-top: 410px;
     width: 500px;
-    border-top: 1px solid red;
+    border-top: 1px solid rgb(82, 69, 69);
+    ;
     text-align: center;
     
 }

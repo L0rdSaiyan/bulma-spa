@@ -26,3 +26,18 @@ function cadastrar(){
     }
 
 }
+
+function confirm(){
+
+let usuario = document.getElementById("usuario").value
+let senha = document.getElementById("senha").value
+
+if(usuario == "" || senha == ""){
+
+    alertify.error('preencha os campos corretamente!')
+
+}
+
+
+}
+

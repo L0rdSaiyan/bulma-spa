@@ -3,8 +3,6 @@
 
 body{
 
-    margin: 0;
-    padding: 0;
     min-height: 100vh;
     background-image: url("imgs/fundo.jpg");
     background-size: cover;
@@ -28,7 +26,6 @@ body{
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    position: absolute;
     border-radius: 30px;
     box-shadow: 10px 10px 10px 3px;
 
@@ -87,9 +84,16 @@ body{
 
 }
 
+::placeholder{
+
+    color: rgb(189, 179, 179);
+
+
+}
+
 #entrar{
 
-    margin-top: 100px;
+    margin-top: 120px;
     background-color: #4fc7ff;
     border: none;
     border-radius: 5px;
@@ -98,6 +102,7 @@ body{
     position: absolute;
     animation-name: anima2;
     animation-duration: 3s;
+    z-index: 2;
     transition: 200ms;
 
 }
@@ -108,8 +113,47 @@ body{
     background-color: #4FFFD8;
     transform: scale(1.1);
     box-shadow: 1px 10px 10px 1px;
+    font-weight: bold;
 
 }
+
+footer{
+
+    border-color: red;
+    position: absolute;
+    margin-top: 410px;
+    width: 400px;
+    border-top: 1px solid rgb(82, 69, 69);
+    text-align: center;
+    animation-name: anima3;
+    animation-duration: 3s;
+    
+}
+
+footer a{
+
+    color: #4fc7ff;
+
+}
+
+footer a:hover{
+
+    transition: 200ms;
+    color: #4FFFD8;
+
+}
+
+@media screen and (max-width:720px){
+
+    footer p, footer a{
+
+        font-size: 13px;
+
+    }
+
+
+}
+
 
 @keyframes anima{
 
@@ -121,6 +165,13 @@ body{
 @keyframes anima2{
 
     from{margin-top:900px}
-    to{margin-top: 100px;}
+    to{margin-top: 120px;}
+
+}
+
+@keyframes anima3{
+
+    0%{visibility: hidden;}
+    100%{visibility: hidden;}
 
 }
